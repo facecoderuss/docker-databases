@@ -51,7 +51,7 @@ Runtime Options
 You can customise the database settings when running the ddb.sh script. 
 
 ```bash
-# mysql/postgresql only
+  # mysql/postgresql only
 - username
 - password
 - database name
@@ -95,6 +95,7 @@ Please enter docker container name [default: mysql]: mysqldb
 CONTAINER ID        IMAGE                        COMMAND               CREATED             STATUS              PORTS                                        NAMES
 9f7c38765cd2        orchardup/mysql:latest       /usr/local/bin/run    3 seconds ago       Up 2 seconds        0.0.0.0:3306->3306/tcp                       mysqldb  
 ```
+
 
 You should now see your running docker mysql container with the name "mysqldb" with the default mysql port (3306) already mapped through to the container.
 
