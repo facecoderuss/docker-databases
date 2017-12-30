@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function mysql() {
-  docker run -d -p 3306:3309 \
+  docker run -d -p 3306:3306 \
              -e MYSQL_ROOT_PASSWORD=${password} \
              -e MYSQL_USER=${username} \
              -e MYSQL_PASSWORD=${password} \
