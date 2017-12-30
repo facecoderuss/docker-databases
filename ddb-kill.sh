@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [[ -z $1 ]]
  then read -p "Enter docker container name:" container
 else
