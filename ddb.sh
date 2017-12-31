@@ -49,6 +49,8 @@ then
   read -p "Please enter db name [default: test]: " schema
 fi
 
+read -p "Please enter docker container name [default: ${1}]": container
+
 username=${username:-root}
 password=${password:-password}
 schema=${schema:-test}
